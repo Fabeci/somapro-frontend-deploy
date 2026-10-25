@@ -1,0 +1,3 @@
+﻿question;type;points;option1;option2;option3;option4;bonne_reponse;explication
+Quelle est la capitale du Sénégal ?;choix_unique;1;Dakar;Thiès;Saint-Louis;Kaolack;a;Dakar est la capitale.
+Quels langages sont orientés objet ?;choix_multiple;2;Python;C;Java;HTML;a,c;Python et Java supportent la POO.
