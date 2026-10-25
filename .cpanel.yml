@@ -3,4 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/c2597275c/public_html/somapro
     - /bin/mkdir -p "$DEPLOYPATH"
-    - /usr/bin/find . -maxdepth 1 -mindepth 1 ! -name .git ! -name .cpanel.yml ! -name README.md -exec /bin/cp -R {} "$DEPLOYPATH" \;
+    - /bin/cp -R ./. "$DEPLOYPATH"
+    - /bin/rm -rf "$DEPLOYPATH/.git" "$DEPLOYPATH/.cpanel.yml" "$DEPLOYPATH/README.md"
